@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url(./interestelar.jpg);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  .moeda{
+    display: inline-block;
+    margin: 20px;
+  }
+.button{
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
+  }
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+  content: "\21CA";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+input {
+  color: #fff;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #4f4f4f;
+  border: none;
+  border-radius: 4px;
+}

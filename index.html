@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor interestelar
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://github.com/joaoxmarcello/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+      </a>
+      <div class="container-moedas">
+        <h1>Cotações de Moedas</h1>
+        <label for="valorEmReais">Digite o valor em Reais:</label>
+        <input type="number" id="valorEmReais">
+        <button class="button" onclick="converterMoedas()"><span>Converter</span></button>
+    </div>
+    <p class="moeda">Dólar: <span id="dolar"></span></p>
+    <p class="moeda">Euro: <span id="euro"></span></p>
+    <p class="moeda">Bitcoin: <span id="bitcoin"></span></p>
+    <div class="container-espaco">
+
+      <label for="distanciaAnosLuz">Digite a distância em anos-luz:</label>
+      <input type="number" id="distanciaAnosLuz">
+      <button class="button" onclick="converterDistancia()"><span>Converter</span></button>
+    
+      <p>Distância em Metros: <span id="distanciaMetros"></span></p>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
